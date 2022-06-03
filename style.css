@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Bebas+Neue&family=Josefin+Sans:wght@100;400&family=Raleway:wght@100&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+    font-family: 'Akshar', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container{
+    overflow: hidden;
+    width:100%;
+    height:120vh;
+    /* background-color: #2e3235; */
+    background-color: #191a1e;
+    background:linear-gradient(rgba(0, 0, 0, 0.674),rgba(0, 0, 0, 0.652)) #191a1e ;
+    filter: saturate(20px);
+    /* background-image:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,0.4)) ,url('perfect.jpg'); */
+
+
+
+    /* background-image:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,0.4)) ,url('perfect.jpg'); */
+    
+}
+
+.row{
+    overflow: hidden;
+    color:white;
+    width:100%;
+    /*height:110vh;*/
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-image:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,0.4)) ,url('perfect.jpg');
+
+}
+/* ********************************Masthead Open**************************** */
+.masthead{
+    width:100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align:end;
+
+
+
+}
+
+h1.Head{
+    position: relative;
+    margin:10px auto;
+    width:100%;
+    letter-spacing: .6em;
+    line-height: 1em;
+    font-family: 'Libre Caslon Display', serif;
+    color:#3caeff;
+    opacity: .6;
+    text-align: center;
+    text-transform: uppercase;
+font-size:150px;
+
+}
+
+.Head::first-letter{
+    color:rgb(255, 123, 0);
+}
+
+
+hr.ruler{
+    right:10px;
+    padding:100px;
+    box-sizing:border-box;
+    position: relative;
+    transform-origin: 50% 50%;
+    perspective: 100px;
+    transform: rotateZ(63deg);
+    padding: 10;
+    opacity:.4;
+    overflow: hidden;
+    margin:10px auto;
+    width: 100%;
+    border: none;
+    overflow: hidden;
+    background-color: #f0671d45;
+    z-index:0;
+}
+
+hr.ruler2{
+    box-sizing:border-box;
+    top:-200px;
+    padding:100px;
+    position: relative;
+    transform-origin: 50% 50%;
+    perspective: 100px;
+    transform: rotateZ(-64deg);
+    padding: 10;
+    opacity:.4;
+    overflow: hidden;
+    margin:10px auto;
+    width: 90%;
+    border: none;
+    overflow: hidden;
+    background-color: #44daff3f;
+    z-index:0;
+}
+
+h1.Head::after{
+    position:absolute;
+    top:340px;
+    left:250px;
+    width: fit-content;
+    height:120px;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    letter-spacing:.3em;
+    content:"Princess";
+    transform: rotateZ(90deg);
+    transform-origin: 50% 50%;
+    perspective: 100px;
+    /* color: #f30071; */
+    color:#fff;
+    display: block;
+    opacity:.8;
+    padding-left:30px;
+    padding-bottom:30px;
+    font-size: 70px;
+    z-index:-1;
+
+
+}
+
+
+.upper{
+    font-weight: 100;
+    font-family:monospace;
+    padding: 20px;
+    font-size: 20px;
+    width: 300px;
+    color: rgb(17, 136, 255);
+    text-transform: uppercase;
+
+}
+
+p.lower {
+    word-spacing: 2.9px;
+    color: rgb(35, 145, 255);
+    position: relative;
+bottom:400px;
+    font-weight: 100;
+    font-family:monospace;
+    padding: 20px;
+    font-size: 20px;
+text-transform: uppercase;
+
+}
+/* ********************************Masthead closed**************************** */
+
+
+
+
+
+/***************************************** Lead Article Area Opens******************************************/
+div.lead-article{
+    position:relative;
+    top:240px;
+    left:50px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+h2.main-text{
+    margin-left:10px;
+
+    line-height: 1.2em;
+    text-align: justify;
+    width: 330px;
+    padding: 30px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    color:#f0671d;
+    font-size: 37px;
+}
+
+.short-text{
+    margin-left:140px;
+    line-height: 1.4em;
+    text-align:left;
+    padding: 30px;
+    width: 200px;
+    color:rgb(161, 161, 161);
+    font-size: 20px;
+}
+
+h2.main-text p.description{
+box-sizing:border-box;
+    padding: 10px;
+    line-height: 2em;
+    width: 100%;
+    width: 200px;
+    text-align: left;
+    color:rgb(161, 161, 161);
+    font-size: 10px;
+}
+
+h4.support-line{
+    position: relative;
+    right:90px;
+}
+/*********************************************** Ends Lead Article Area closed **************************************/
+
+
+/* ********************************supporting-coverlines Opens******************************** */
+.supporting-coverlines{
+
+    position: relative;
+    right:100px;
+    margin-top:20px;
+    width: 100%;
+    height: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content:flex-start;
+    align-content: flex-end;
+}
+h1.supporting-head{
+    width: 30%;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color:#f0671d;
+    font-size: 40px;
+}
+h2.supporting-short{
+    padding:10px;
+    font-size: 24px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color:#7a7a7a;
+}
+
+h4.support-line{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    padding:10px;
+    font-size: 24px;
+    color:#f0671d;
+
+}
+
+p.support-para{
+    margin-top:5px;
+    line-height: 1.2em;
+    width: 50%;
+    text-align: left;
+    color:rgb(161, 161, 161);
+    font-size: 16px;
+}
+
+/* ********************************supporting-coverlines Closed******************************** */
+
+
+
+
+
+
+/* *****************************************Responsivness******************************** */
+@media only screen and (max-width:763px)
+{
+
+    .row{
+        background-size: contain;
+        background-position: center;
+    }
+
+    .masthead{
+        height: 100px;
+
+    }
+}
+
+@media(max-width:991px){
+    .row{
+        background-size: contain;
+        background-position: center;
+    }
+    .masthead{
+        height: 100px;
+
+    }
+
+}
